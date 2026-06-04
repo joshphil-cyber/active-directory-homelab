@@ -19,4 +19,4 @@ This project is structured in three phases - administration, hardening, and atta
 | **Users** | Simulated AD users via [vulnadplus.ps1](https://raw.githubusercontent.com/WaterExecution/vulnerable-AD-plus/master/vulnadplus.ps1) |
 
 ## Network Topology
-
+![Lab Network Topology Diagram](assets/network-topology.png)
