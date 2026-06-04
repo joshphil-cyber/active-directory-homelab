@@ -21,8 +21,9 @@ This project is structured in three phases - administration, hardening, and atta
 ## Network Topology
 ![Lab Network Topology Diagram](assets/network-topology.png)
 
-```text
 ## Project Structure
+
+```text
 active-directory-homelab/
 ├── Phase1-Administration/
 │   ├── ou-structure.md
