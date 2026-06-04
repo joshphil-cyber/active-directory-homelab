@@ -17,3 +17,6 @@ This project is structured in three phases - administration, hardening, and atta
 | **Attack Machine** | Kali Linux |
 | **Domain** | 'ad.local' |
 | **Users** | Simulated AD users via [vulnadplus.ps1](https://raw.githubusercontent.com/WaterExecution/vulnerable-AD-plus/master/vulnadplus.ps1) |
+
+## Network Topology
+
