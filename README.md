@@ -20,3 +20,31 @@ This project is structured in three phases - administration, hardening, and atta
 
 ## Network Topology
 ![Lab Network Topology Diagram](assets/network-topology.png)
+
+## Project Structure
+active-directory-homelab/
+├── Phase1-Administration/
+│   ├── ou-structure.md
+│   ├── gpo-configurations.md
+│   ├── user-group-management.md
+│   ├── shared-folders-permissions.md
+│   └── screenshots/
+├── Phase2-Hardening/
+│   ├── hardening-checklist.md
+│   ├── audit-policy-config.md
+│   ├── event-log-analysis.md
+│   └── screenshots/
+├── Phase3-Attack-Defend/
+│   ├── kerberoasting.md
+│   ├── asrep-roasting.md
+│   ├── bloodhound-analysis.md
+│   ├── pass-the-hash.md
+│   ├── dcsync.md
+│   └── screenshots/
+├── Reports/
+│   └── AD-Security-Assessment.pdf
+└── README.md
+└── assets
+    └── network-topology.png
+
+
