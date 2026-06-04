@@ -62,5 +62,35 @@ active-directory-homelab/
 - [ ] Configured shared folders with NTFS and share permissions
 - [ ] Tested permission-based access across user accounts
 
-**Writeups**
+**Writeups**:
 [OU Structure]() | [GPO Configurations]() | [User & Group Management]()
+
+# Phase 2 - Security Hardening
+
+**Goal:** Identify and reduce the attack surface of the AD environment.
+
+**Completed Tasks:**
+- [ ] Audited privileged accounts and Domain Admins group
+- [ ] Disabled legacy protocols (NTLM, SMBv1) via GPO
+- [ ] Configured Fine-Grained Password Policies for admin accounts
+- [ ] Enabled and configured audit policies (logon, account management, privilege use)
+- [ ] Deployed Sysmon for enhanced event logging
+- [ ] Reviewed key Event IDs: 4624, 4625, 4648, 4720, 4732
+
+**Writeups**: [Hardening Checklist]() | [Audit Policy Config]()
+
+# Phase 3 - Attack & Defend
+
+**Goal:** Simulate common AD attacks, detect them via logs, and remediate the underlying vulnerabilities
+
+| Attack | Tool | Status |
+| :--- | :--- | :--- |
+| Password Spraying | CrackMapExec | [ ] Pending |
+| Kerberoasting | Impacket/Rubeus | [ ] Pending |
+| AS-REP Roasting | Impacket | [ ] Pending |
+| BloodHound Enumeration | BloodHound + SharpHound | [ ] Pending |
+| Pass-the-Hash | Mimikatz | [ ] Pending |
+| DCSync | Mimikatz | [ ] Pending |
+
+**Writeups:** (*Note*: Each writeup follows the format: **Attack->Evidence in Logs->Detection->Remediation**
+[Kerberoasting]() | [BloodHound Analysis]() | [Pass-the-Hash]()
