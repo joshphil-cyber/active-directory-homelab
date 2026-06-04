@@ -50,7 +50,7 @@ active-directory-homelab/
     └── network-topology.png
 ```
 
-# Phase 1 - AD Administration
+## Phase 1 - AD Administration
 
 **Goal:** Build and manage a functional Active Directory environment from the ground up.
 
@@ -65,7 +65,7 @@ active-directory-homelab/
 **Writeups**:
 [OU Structure]() | [GPO Configurations]() | [User & Group Management]()
 
-# Phase 2 - Security Hardening
+## Phase 2 - Security Hardening
 
 **Goal:** Identify and reduce the attack surface of the AD environment.
 
@@ -79,7 +79,7 @@ active-directory-homelab/
 
 **Writeups**: [Hardening Checklist]() | [Audit Policy Config]()
 
-# Phase 3 - Attack & Defend
+## Phase 3 - Attack & Defend
 
 **Goal:** Simulate common AD attacks, detect them via logs, and remediate the underlying vulnerabilities
 
@@ -96,3 +96,38 @@ active-directory-homelab/
 
 
 [Kerberoasting]() | [BloodHound Analysis]() | [Pass-the-Hash]()
+
+## Final Report
+
+A formal security assessment report documenting all findings, evidence, and remediations - modeled after a real-world pentest deliverable.
+
+[Report (PDF)]()
+
+## Tools Used
+
+| Tool | Purpose |
+| :--- | :--- |
+| VirtualBox | Hypervisior/lab environment |
+| Windows Server 2019 | Domain Controller |
+| Kali Linux | Attack Machine |
+| BloodHound CE | AD attack path visualization |
+| Impacket | AD attack scripts |
+| Mimikatz | Credential extraction |
+| CrackMapExec | Network enumeration and spraying |
+| Sysmon | Enhanced Windows event logging |
+| draw.io | Network diagrams |
+
+## Skills
+* Active Directory administration (OUs, GPOS, users, groups)
+* Group Policy design and enforcement
+* NTFS and share permission management
+* Windows Event Log analysis
+* AD attack techniques (Kerberoasting, PTH, DCSync, BloodHound)
+* Blue team detection and incident response
+* Security hardening and remediation
+* Technical documentation and reporting
+
+### About
+This homelab is built as a self-directed project to develop practical skills for roles in **sysadmin, IT Security** and **blue/red team** environments
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/josh-e-philip/) | [GitHub](https://www.github.com/joshphil-cyber)
