@@ -85,12 +85,14 @@ active-directory-homelab/
 
 | Attack | Tool | Status |
 | :--- | :--- | :--- |
-| Password Spraying | CrackMapExec | [ ] Pending |
-| Kerberoasting | Impacket/Rubeus | [ ] Pending |
-| AS-REP Roasting | Impacket | [ ] Pending |
-| BloodHound Enumeration | BloodHound + SharpHound | [ ] Pending |
-| Pass-the-Hash | Mimikatz | [ ] Pending |
-| DCSync | Mimikatz | [ ] Pending |
+| Password Spraying | CrackMapExec | Pending |
+| Kerberoasting | Impacket/Rubeus | Pending |
+| AS-REP Roasting | Impacket | Pending |
+| BloodHound Enumeration | BloodHound + SharpHound | Pending |
+| Pass-the-Hash | Mimikatz | Pending |
+| DCSync | Mimikatz | Pending |
 
-**Writeups:** (*Note*: Each writeup follows the format: **Attack->Evidence in Logs->Detection->Remediation**
+**Writeups:** (*Note*: Each writeup follows the format: **Attack->Evidence in Logs->Detection->Remediation**)
+
+
 [Kerberoasting]() | [BloodHound Analysis]() | [Pass-the-Hash]()
