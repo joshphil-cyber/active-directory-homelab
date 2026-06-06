@@ -21,6 +21,6 @@ ad.lab
 
 
 ## Screenshots
-![Expanded tree of the ad.lab domain OUs](Phase1-Administration/screenshots/ou_expanded.png)
+![Expanded tree of the ad.lab domain OUs](screenshots/ou_expanded.png)
 
-![Members of the GRP_HR_USERS OU](Phase1-Administration/screenshots/members_tab_expanded.png)
+![Members of the GRP_HR_USERS OU](screenshots/members_tab_expanded.png)
