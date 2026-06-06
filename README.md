@@ -63,7 +63,7 @@ active-directory-homelab/
 - [x] Tested permission-based access across user accounts
 
 **Writeups**:
-[OU Structure]() | [GPO Configurations]() | [User & Group Management]()
+[OU Structure](Phase1-Administration/ou-structure.md) | [GPO Configurations](Phase1-Administration/gpo-configurations.md) | [User & Group Management](Phase1-Administration/user-group-management.md)
 
 ## Phase 2 - Security Hardening
 
