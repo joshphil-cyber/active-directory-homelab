@@ -15,7 +15,7 @@ This project is structured in three phases - administration, hardening, and atta
 | **Domain Controller** | Windows Server 2019 |
 | **Workstations** | 2x Windows 10 Enterprise (domain joined) |
 | **Attack Machine** | Kali Linux |
-| **Domain** | 'ad.local' |
+| **Domain** | 'ad.lab' |
 | **Users** | Simulated AD users via [vulnadplus.ps1](https://raw.githubusercontent.com/WaterExecution/vulnerable-AD-plus/master/vulnadplus.ps1) |
 
 ## Network Topology
