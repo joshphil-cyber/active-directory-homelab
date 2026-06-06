@@ -55,12 +55,12 @@ active-directory-homelab/
 **Goal:** Build and manage a functional Active Directory environment from the ground up.
 
 **Completed Tasks:**
-- [ ] Designed and created OU structure (IT, HR, Finance)
-- [ ] Created domain users and security groups
-- [ ] Applied Group Policy Objects (password policy, lockout policy, drive mapping)
+- [x] Designed and created OU structure (IT, HR, Finance)
+- [x] Created domain users and security groups
+- [x] Applied Group Policy Objects (password policy, lockout policy, drive mapping)
 - [x] Joined Windows 10 VMs to the domain
-- [ ] Configured shared folders with NTFS and share permissions
-- [ ] Tested permission-based access across user accounts
+- [x] Configured shared folders with NTFS and share permissions
+- [x] Tested permission-based access across user accounts
 
 **Writeups**:
 [OU Structure]() | [GPO Configurations]() | [User & Group Management]()
