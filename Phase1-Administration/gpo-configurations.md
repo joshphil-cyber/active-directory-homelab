@@ -15,14 +15,17 @@ Group Policy Objects allow for centralized management and security for all devic
 ## Screenshots:
 
 ![](screenshots/password_policy_values.png)
+
 *Screenshot 1: The values set for the custom **Password Policy** GPO*
 
 ![](screenshots/gpupdate_force.png)
+
 *Screenshot 2: Running the `gpupdate /force` command on Windows Powershell*
+
+![](screenshots/gpo_linked_to_domain.png)
+
+*Screenshot 3: Tab displaying the Password Policy GPO being linked to the ad.lab domain*
 
 ## Issues:
 
 No issues were encountered in this portion of Phase 1.
-
-![](screenshots/gpo_linked_to_domain.png)
-*Screenshot 3: Tab displaying the Password Policy GPO being linked to the ad.lab domain*
