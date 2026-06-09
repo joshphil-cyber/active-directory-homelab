@@ -20,7 +20,7 @@ Group Policy Objects allow for centralized management and security for all devic
 
 ![](screenshots/gpupdate_force.png)
 
-*Screenshot 2: Running the `gpupdate /force` command on Windows Powershell*
+*Screenshot 2: Running the `gpupdate /force` command on Windows PowerShell*
 
 ![](screenshots/gpo_linked_to_domain.png)
 
